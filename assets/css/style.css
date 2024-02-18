@@ -11,7 +11,7 @@ body {
     background-color: rgb(101, 224, 255);
     height: 100%;
     width: 50vw;
-    position: absolute;
+    position:relative;
     left: 25%;
     top: 0;
     border: 20px;
@@ -50,4 +50,18 @@ body {
     background-color: rgb(4, 24, 79);
     border: 2px solid rgb(150, 237, 37);
     color: rgb(150, 237, 37);
+}
+
+.text-content2 {
+    margin: 10px;
+    background-color: rgb(4, 24, 79);
+    color: white;
+    border-radius: 10px;
+    .content {
+        margin: 20px;
+    }
+    h2:hover{
+        color: rgb(150, 237, 37);
+
+    }
 }
